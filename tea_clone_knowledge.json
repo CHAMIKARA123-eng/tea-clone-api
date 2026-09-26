@@ -1,0 +1,94 @@
+{
+  "source": {
+    "title": "T.R.I. Advisory Circular No. PN 1 - The Suitability of Tea Clones for the Different Regions",
+    "issue_date": "December 2002",
+    "serial_no": "6/02"
+  },
+
+  "general_guidance": [
+    "Select at least 5-6 clones according to suitability for the particular location and extent.",
+    "No more than 10 percent of an estate should be under a single clone.",
+    "Clonal suitability can be tested by small-scale planting of at least 200 bushes.",
+    "Clones performing well in a particular locality, even if not listed in the circular, could be considered for planting in that locality."
+  ],
+
+  "target_clones": {
+    "TRI_2022": {
+      "regions": [
+        "Mid-Country semi-dry zone (Uva)",
+        "Low-Country"
+      ],
+      "yield": "High",
+      "quality": "Not specifically rated",
+      "rooting": "High",
+      "drought_tolerance": "High",
+      "stem_canker": "High",
+      "low_country_live_wood_termite": "Moderate"
+    },
+
+    "TRI_2026": {
+      "regions": [
+        "Mid-Country wet zone",
+        "Mid-Country semi-dry zone (Uva)",
+        "Low-Country"
+      ],
+      "yield": "High",
+      "quality": "Not specifically rated",
+      "rooting": "High",
+      "drought_tolerance": "Moderate",
+      "blister_blight": "Moderate"
+    },
+
+    "TRI_3055": {
+      "regions": [
+        "Low-Country"
+      ],
+      "yield": "High",
+      "quality": "Not specifically rated",
+      "rooting": "High",
+      "drought_tolerance": "High",
+      "Pratylenchus_loosi": "Moderate",
+      "stem_canker": "Moderate",
+      "shot_hole_borer": "High",
+      "low_country_live_wood_termite": "High"
+    },
+
+    "TRI_4042": {
+      "regions": [
+        "Mid-Country wet zone",
+        "Mid-Country semi-dry zone (Uva)",
+        "Low-Country"
+      ],
+      "yield": "High",
+      "quality": "Not specifically rated",
+      "rooting": "High",
+      "drought_tolerance": "High",
+      "shot_hole_borer": "High",
+      "low_country_live_wood_termite": "High"
+    },
+
+    "TRI_4049": {
+      "regions": [
+        "Low-Country"
+      ],
+      "yield": "Moderate",
+      "quality": "Not specifically rated",
+      "rooting": "High",
+      "drought_tolerance": "High",
+      "stem_canker": "High"
+    },
+
+    "TRI_5007": {
+      "regions": [],
+      "note": "TRI 5007 was not found in the provided 2002 T.R.I. Advisory Circular. Do not invent characteristics for this clone."
+    }
+  },
+
+  "assistant_rules": [
+    "Use this knowledge as the primary source for questions about the provided T.R.I. circular.",
+    "Do not invent characteristics when the circular does not specifically rate them.",
+    "If information is not available in this knowledge, say that the provided circular does not contain enough information.",
+    "The circular was issued in December 2002.",
+    "Distinguish 'not specifically rated' from a negative rating such as low, poor, or unsuitable."
+  ]
+}
